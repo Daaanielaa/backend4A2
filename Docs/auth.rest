@@ -6,3 +6,20 @@ Content-Type: application/json
     "email":"casa@gmail.com",
     "password":"andersito"
 }
+
+
+
+### login 
+
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json 
+
+{
+    "name":"prueba2",
+    "email":"rp2@hm.com",
+    "password":"1234567"
+}
+
+###users
+GET http://127.0.0.1:3000/users
+Authorization: 
